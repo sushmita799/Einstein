@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.20.0",
+    "express": "^4.17.1",
     "lodash": "^4.17.20",
     "mysql": "^2.18.1",
     "react": "^16.13.1",
@@ -15,7 +16,9 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "reactstart": "react-scripts start",
+    "start": "node server.js",
+    "startlocal": "node build/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
