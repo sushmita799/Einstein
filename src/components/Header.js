@@ -1,23 +1,9 @@
 import React from "react";
 import logo from "../img/logo-04.png"
-import { findAll } from "./SearchMe"
-import SearchForm from "./SearchForm"
 
-
-
-class HomePage extends React.Component {
-
-    onFormSubmit = async (searchData) => {
-        let searchResults = await findAll(searchData);
-        this.props.history.push({
-            pathname: '/searchresult',
-            state: { detail: searchResults.data }
-        });
-    };
-
-    render() {
-        return (<section className="homeBaner">
-
+const Header = (props) => {
+    return (
+        <div className="header-background">
             <div className='header'>
                 <div className='site-logo'>
                     <img src={logo} />
@@ -25,7 +11,7 @@ class HomePage extends React.Component {
                 <div id='primary-menu'>
                     <nav>
                         <ul className="menu-main-menu">
-                            <li><a href="#home" className='active'>Home </a></li>
+                            <li><a href="/" className='active'>Home </a></li>
                             <li><a href="#home">einstein solutions</a></li>
                             <li><a href="#home">Forum </a></li>
                             <li><a href="#home">recourse </a></li>
@@ -41,20 +27,11 @@ class HomePage extends React.Component {
 
                 </div>
             </div>
-
-            <div id="main-title">
-                Explore with journery builder
-            </div>
-
-            <div id="search-einstein-model" className='vertical-center'>
-                <SearchForm onFormSubmit={this.onFormSubmit} />
-            </div>
-
-        </section>
-
-        );
-    }
-
+        </div>
+    );
 };
 
-export default HomePage;
+
+
+
+export default Header;
