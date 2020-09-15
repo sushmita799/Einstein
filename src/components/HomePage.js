@@ -43,7 +43,7 @@ class HomePage extends React.Component {
             </div>
 
             <div id="main-title">
-                Explore with journery builder
+                Explore with Journey Builder
             </div>
 
             <div id="search-einstein-model" className='vertical-center'>
