@@ -7,7 +7,7 @@ const MainMenu = (props) => {
                 <li><a href="#" className="active">All</a></li>
                 <li><a href="#">Einstein Solutions</a></li>
                 <li><a href="#">Forum</a></li>
-                <li><a href="#">Recourse </a></li>
+                <li><a href="#">Resource </a></li>
             </ul>
             <div className="filters">Filters</div>
         </div>

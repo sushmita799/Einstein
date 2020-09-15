@@ -14,7 +14,7 @@ const Header = (props) => {
                             <li><a href="/" className='active'>Home </a></li>
                             <li><a href="#home">einstein solutions</a></li>
                             <li><a href="#home">Forum </a></li>
-                            <li><a href="#home">recourse </a></li>
+                            <li><a href="#home">resource </a></li>
                         </ul>
                     </nav>
                 </div>

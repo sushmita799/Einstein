@@ -39,15 +39,15 @@ class SearchForm extends React.Component {
             <span>
                 <label htmlFor="so_as_to">so as to</label>
                 <select value={this.state.direction} onChange={this.onInputChange} name='direction'>
-                    <option value=''>Select Direction</option>
-                    <option value="Minimize">Minimize</option>
-                    <option value="Maximize">Maximize</option>
+                    
+                    <option value="Maximize">maximize</option>
+                    <option value="Minimize">minimize</option>
                 </select>
             </span>
             <span>
 
                 <select value={this.state.kpi} onChange={this.onInputChange} name='kpi'>
-                <option >Select KPI</option>
+                <option >my objective</option>
                             <option>Out of Stock</option>
                             <option>Opportunity to Win Ratio</option>
                             <option>Up-Selling Rate</option>
