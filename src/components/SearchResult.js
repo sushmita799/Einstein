@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 import _ from "lodash";
 import Header from "./Header"
 import SearchForm from "./SearchForm"
 import MainMenu from "./MainMenu"
 import { findAll } from "./SearchMe"
-var images = require.context('../img', true);
+
 
 class SearchResult extends React.Component {
     state = { search_data_results: {} };
@@ -56,7 +56,13 @@ class SearchResult extends React.Component {
                                 <div className="img-container">
                                     <img src={require('../img/a1.png')} width="60" /> </div></div>
                             <div className="search-result-container-result border-right">
-                                <h2>{result.solution}</h2>
+
+                                <Link
+                                    to={{
+                                        pathname: "/productresults",
+                                        state: { fromDashboard: true }
+                                    }}
+                                > <h2>{result.solution}</h2></Link>
                                 <p>Extracts and contextualises Object in images</p>
                             </div>
                             <div className="search-result-container-adopter border-right">
