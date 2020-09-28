@@ -52,8 +52,12 @@ class ProductResults extends React.Component {
                         <div label="Overview">
 
                             <ProductOverview />
+                            <ProductCustomerSatisfaction />
+                            <ProductCollapsbleData />
+                            <ProductComparingSearch />
 
-                        </div >
+
+                        </div>
                         <div label="Industry Specific">
                             <ProductIndustrySpecific />
                         </div>
@@ -61,32 +65,7 @@ class ProductResults extends React.Component {
                             <ProductTechnicalDetails />
                         </div>
                     </Tabs >
-                    <div className="prdcontainer">
-                        <div className="main" style={{ position: "relative" }}>
-                            <h2>SEE CUSTOMER STORIES</h2>
-                            <ProductCustomerSatisfaction />
 
-                        </div>
-                        <div className="sidebar"></div>
-                    </div>
-                    <div className="prdcontainer">
-                        <div className="main" >
-                            <h2 style={{ paddingBottom: "3rem" }}>FAQ</h2>
-
-                            <ProductCollapsbleData />
-
-                        </div>
-                        <div className="sidebar"></div>
-                    </div>
-                    <div className="prdcontainer">
-                        <div className="main" style={{ overflow: "hidden" }} >
-                            <h2 style={{ paddingBottom: "3rem" }}> COMPARING SEARCH RESULTS</h2>
-
-                            <ProductComparingSearch />
-
-                        </div>
-                        <div className="sidebar"></div>
-                    </div>
                 </section >
             </div >
         )

@@ -461,6 +461,7 @@ a.active {
     -moz-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.51);
     -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.51);
     box-shadow: 0 0 5px 5px gainsboro;
+    margin-bottom: 3rem;
 }
 
 .ask-me {
@@ -666,4 +667,26 @@ a.active {
 
 .soultionImg {
     text-align: center;
+}
+
+.overviewContainer {
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.tooltips {
+    display: flex;
+    padding: 2rem;
+}
+
+.tooltip-img {
+    flex: 0;
+}
+
+.tooltip-content {
+    flex: 2;
+}
+
+.boldMe {
+    font-weight: bold;
 }
