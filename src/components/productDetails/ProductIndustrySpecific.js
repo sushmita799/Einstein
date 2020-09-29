@@ -6,12 +6,12 @@ const ProductIndustrySpecific = (props) => {
         <div className="tabOverview">
             <div className="main">
                 <h2 style={{ paddingBottom: "3rem" }}>Consumer Goods</h2>
-                <iframe width="100%" height="500" style={{ border: "none" }} src="https://www.youtube.com/embed/RsSQtBl_Dsk">
+                <iframe width="100%" height="500" style={{ border: "none" }} src="https://www.youtube.com/embed/mSWNvx4nYbU">
                 </iframe>
                 <p className="productDesc">
-                    <span>Project Detail:</span> Einstein Object Detection detects, identifies, and locates objects in images. For instance, a field rep clicks the photo of a shelf in a retail store and can use it for object detection
+                    <span>Project Detail:</span> Optimise store visits and drive efficiency by providing field reps with essential data, inclusing store name, location, visit time, and previous visit details. To explore all the newest innovations from Consumer Goods Cloud in the Winter'20 release visit <a>https://wwww.salesforce.com/releases/winter-20/overview</a>
                                     </p>
-                <p className="productDesc"><span>Project Team :</span> Commerce Good, Retail</p>
+                <p className="productDesc"><span>Project Team :</span> <a>carlo.andrews@salesforce.com, rohit.das@salesforce.com</a></p>
 
             </div>
             <div className="sidebar">
