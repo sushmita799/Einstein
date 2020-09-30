@@ -2,6 +2,11 @@ body {
     font-family: SalesforceSans-Regular, Helvetica, Arial, sans-serif !important;
 }
 
+a {
+    color: #0096CE;
+   
+}
+
 section {
     width: 100%;
     margin: 0;
