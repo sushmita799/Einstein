@@ -81,6 +81,7 @@ nav ul li a {
     position: absolute;
     top: 15%;
     left: 25%;
+    text-align:center;
 }
 
 input[type=text], select {
@@ -130,7 +131,7 @@ a.active {
 .vertical-center {
     margin: 0;
     position: absolute;
-    bottom: 20%;
+    bottom: 30%;
     left: 25%;
 }
 
