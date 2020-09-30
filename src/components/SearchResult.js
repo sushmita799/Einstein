@@ -40,8 +40,8 @@ class SearchResult extends React.Component {
 
 
     render() {
-        const results = this.state.search_data_results;
 
+        let results = this.state.search_data_results;
         let length = 0
         let display = <RenderNoResult />
 
@@ -50,7 +50,7 @@ class SearchResult extends React.Component {
         }
 
         if (length != 0) {
-            display = <RenderResult result={results} />
+            display = <RenderResult result={this.state.search_data_results} />
         }
 
 

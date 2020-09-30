@@ -4,7 +4,6 @@ body {
 
 a {
     color: #0096CE;
-   
 }
 
 section {
@@ -81,7 +80,7 @@ nav ul li a {
     position: absolute;
     top: 15%;
     left: 25%;
-    text-align:center;
+    text-align: center;
 }
 
 input[type=text], select {
@@ -239,7 +238,7 @@ a.active {
 
 .einstein-solutions-header {
     margin-bottom: 5px;
-    color:#0096CE;
+    color: #0096CE;
 }
 
 .search-result-container {
@@ -515,14 +514,12 @@ a.active {
     display: flex;
 }
 
-
-
 .follow {
     background-color: #F9D667;
     padding: 10px;
     border-radius: 2px;
     flex: 0 0 auto;
-    height:4rem;
+    height: 4rem;
 }
 
 .follow::before {
@@ -531,6 +528,7 @@ a.active {
     top: 7px;
     padding-right: 10px;
 }
+
 .connect {
     background-color: #F9D667;
     padding: 10px;
@@ -739,4 +737,16 @@ a.active {
 .top {
     top: 0;
     z-index: 1;
+}
+
+.is-absolute {
+    position: fixed;
+}
+
+.ask-me .button {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    width: 70%;
 }

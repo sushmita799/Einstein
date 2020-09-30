@@ -56,7 +56,7 @@ const ProductOverview = (props) => {
                         Feel free to reach out to us for further questions !
                                           
                     </p>
-                    <p style={{ textAlign: "center", paddingBottom: "1rem" }} className="connect">
+                    <p   className="connect button">
                         Chat with Einstein Vision team
                                         </p>
 
