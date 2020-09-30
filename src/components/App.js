@@ -5,8 +5,11 @@ import history from "../history";
 import ProductResults from "./productDetails/ProductResults"
 import { Router, Route, Switch } from "react-router-dom";
 
+
 class App extends React.Component {
+
     render() {
+
         return <div>
             <Router history={history}>
                 <Switch>

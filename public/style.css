@@ -90,7 +90,7 @@ input[type=text], select {
 
 input[type=submit] {
     width: 100%;
-    background-color: #93D2B7;
+    background-color: #F9D667;
     color: black;
     padding: 14px 20px;
     margin: 8px 0;
@@ -100,7 +100,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #F9D667;
 }
 
 #search-einstein-model {
@@ -119,7 +119,7 @@ input[type=submit]:hover {
 }
 
 a.active {
-    border-bottom: 2px solid #93D2B7;
+    border-bottom: 2px solid #F9D667;
 }
 
 .vertical-center {
@@ -138,7 +138,7 @@ a.active {
     position: fixed;
     bottom: 33px;
     right: -33px;
-    background-color: #93D2B7;
+    background-color: #F9D667;
     padding: 10px;
     border-radius: 10px 10px 0 0;
 }
@@ -162,7 +162,7 @@ a.active {
 }
 
 .searchBar {
-    background-color: #681B53;
+    background-color: #0095CC;
     color: #FFF;
 }
 
@@ -180,7 +180,7 @@ a.active {
 
 .main-menu li a {
     display: block;
-    color: #000;
+    color: #0096CE;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -188,7 +188,7 @@ a.active {
 }
 
 .main-menu a.active {
-    border-bottom: 2px solid #631B55;
+    border-bottom: 2px solid #F9D667;
     font-weight: bold;
 }
 
@@ -209,7 +209,8 @@ a.active {
     right: 5%;
     bottom: 0px;
     border: 1px solid #631B55;
-    padding: 10px;
+    padding: 5px 10px 10px 10px;
+    border-radius: 5px;
 }
 
 .filters::before {
@@ -217,10 +218,11 @@ a.active {
     position: relative;
     top: 7px;
     padding-right: 10px;
+    text-align: center;
 }
 
 .sortorder span {
-    color: #631B55;
+    color: #0096CE;
 }
 
 .sortorder span::after {
@@ -231,6 +233,7 @@ a.active {
 
 .einstein-solutions-header {
     margin-bottom: 5px;
+    color:#0096CE;
 }
 
 .search-result-container {
@@ -424,7 +427,7 @@ a.active {
     bottom: -15px;
     height: 1px;
     width: 25%;
-    border-bottom: 4px solid #631B55;
+    border-bottom: 4px solid #F9D667;
 }
 
 .tabOverview {
@@ -462,6 +465,7 @@ a.active {
     -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.51);
     box-shadow: 0 0 5px 5px gainsboro;
     margin-bottom: 3rem;
+    color: #0096CE;
 }
 
 .ask-me {
@@ -472,7 +476,7 @@ a.active {
     box-shadow: 0 0 5px 5px gainsboro;
     margin-top: 5rem;
     font-size: 20px;
-    color: #631B55;
+    color: #0096CE;
 }
 
 .ask-me h2 {
@@ -487,7 +491,7 @@ a.active {
     list-style: none;
     font-size: 20px;
     padding-bottom: 10px;
-    color: #631B55;
+    color: #0096CE;
 }
 
 [class^="icon"] {
@@ -500,13 +504,13 @@ a.active {
 }
 
 .suggestion li {
-    border-bottom: 1px solid #631B55;
+    border-bottom: 1px solid #F9D667;
     padding: 2% 5%;
     display: flex;
 }
 
 .follow {
-    background-color: #b4f6e1;
+    background-color: #F9D667;
     padding: 10px;
     border-radius: 2px;
 }
@@ -516,6 +520,11 @@ a.active {
     position: relative;
     top: 7px;
     padding-right: 10px;
+}
+.connect {
+    background-color: #F9D667;
+    padding: 10px;
+    border-radius: 2px;
 }
 
 .suggestionDesc {
@@ -540,7 +549,7 @@ a.active {
     font-size: 20px;
     top: 20px;
     right: 20px;
-    color: #631B55;
+    color: #0096CE;
     font-family: "SalesforceSans-Bold";
 }
 
@@ -573,7 +582,7 @@ a.active {
 .card .card__content h2 {
     font-family: "SalesforceSans-Bold";
     font-size: 20px;
-    color: #631B55;
+    color: #0096CE;
 }
 
 .card .card__content p {
@@ -649,7 +658,7 @@ a.active {
 .compareListResult li, .compareList li {
     list-style: none;
     padding: 5% 4%;
-    border-bottom: 1px solid #631B55;
+    border-bottom: 1px solid #F9D667;
     font-family: "SalesforceSans-Bold";
     font-size: 18px;
     text-align: center;
@@ -660,7 +669,7 @@ a.active {
     font-size: 18px;
     text-align: center;
     padding: 5% 4%;
-    border-bottom: 1px solid #631B55;
+    border-bottom: 1px solid #F9D667;
     width: 90%;
     margin: auto;
 }
@@ -689,4 +698,35 @@ a.active {
 
 .boldMe {
     font-weight: bold;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.sticky.sticky-fixed.is-sticky {
+    margin-top: 0;
+    margin-bottom: 0;
+    position: fixed;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.sticky.sticky-fixed.is-sticky:not([style*="margin-top"]) {
+    margin-top: 0 !important;
+}
+
+.sticky.sticky-fixed.is-sticky:not([style*="margin-bottom"]) {
+    margin-bottom: 0 !important;
+}
+
+.sticky.sticky-fixed.is-absolute {
+    position: absolute;
+}
+
+.top {
+    top: 0;
+    z-index: 1;
 }

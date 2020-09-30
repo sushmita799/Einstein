@@ -50,6 +50,17 @@ const ProductOverview = (props) => {
                                         </p>
 
                 </div>
+                <div className="ask-me">
+                    <h2>Connect with Einstein team</h2>
+                    <p>
+                        Feel free to reach out to us for further questions !
+                                          
+                    </p>
+                    <p style={{ textAlign: "center", paddingBottom: "1rem" }} className="connect">
+                        Chat with Einstein Vision team
+                                        </p>
+
+                </div>
             </div>
         </div >
     );

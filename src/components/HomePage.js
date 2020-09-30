@@ -8,10 +8,11 @@ import SearchForm from "./SearchForm"
 class HomePage extends React.Component {
 
     onFormSubmit = async (searchData) => {
+        this.setState({ searchData: searchData });
         let searchResults = await findAll(searchData);
         this.props.history.push({
             pathname: '/searchresult',
-            state: { detail: searchResults.data }
+            state: { detail: searchResults.data, searchData: searchData }
         });
     };
 
