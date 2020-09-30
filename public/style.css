@@ -515,10 +515,14 @@ a.active {
     display: flex;
 }
 
+
+
 .follow {
     background-color: #F9D667;
     padding: 10px;
     border-radius: 2px;
+    flex: 0 0 auto;
+    height:4rem;
 }
 
 .follow::before {
