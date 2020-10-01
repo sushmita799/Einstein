@@ -14,7 +14,7 @@ class RenderResult extends React.Component {
 
         _.map(this.state.search_data_results, (result, key) => {
             try {
-                result.image = require(`../img/${result.solution.replace(/ /g, "_").toLowerCase()}.jpg`)
+                result.image = require(`../img/${result.solution.replace(/ /g, "_").toLowerCase()}.png`)
             } catch (err) {
                 result.image = require('../img/a1.png');  //set default image path
             }
