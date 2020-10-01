@@ -22,7 +22,7 @@ Meanwhile here are some solutions you might want to consider:</p>
                             pathname: "/productresults",
                             state: { fromDashboard: true }
                         }}
-                    > <h2>einstein Object Detection</h2></Link></p>
+                    > <h2>Einstein Object Detection</h2></Link></p>
                     <p>Extracts and contextualises Object in images</p>
                 </div>
                 <div className="search-result-container-adopter border-right">
