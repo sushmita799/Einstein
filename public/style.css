@@ -185,7 +185,7 @@ a.active {
 
 .main-menu li a {
     display: block;
-    color: #0096CE;
+    
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -195,6 +195,7 @@ a.active {
 .main-menu a.active {
     border-bottom: 2px solid #F9D667;
     font-weight: bold;
+   /* color: #0096CE;*/
 }
 
 .container {
@@ -213,7 +214,7 @@ a.active {
     position: absolute;
     right: 5%;
     bottom: 0px;
-    border: 1px solid #631B55;
+    border: 1px solid #0096CE;
     padding: 5px 10px 10px 10px;
     border-radius: 5px;
 }
@@ -470,7 +471,7 @@ a.active {
     -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.51);
     box-shadow: 0 0 5px 5px gainsboro;
     margin-bottom: 3rem;
-    color: #0096CE;
+    
 }
 
 .ask-me {
@@ -481,7 +482,7 @@ a.active {
     box-shadow: 0 0 5px 5px gainsboro;
     margin-top: 5rem;
     font-size: 20px;
-    color: #0096CE;
+    
 }
 
 .ask-me h2 {
@@ -538,11 +539,15 @@ a.active {
 .suggestionDesc {
     flex: 8;
 }
+.more{
+    color: #0096CE;
+}
 
 .more::after {
     content: url("img/right-arrow.png");
     position: relative;
     top: 7px;
+   
 }
 
 .prdcontainer {
@@ -748,5 +753,5 @@ a.active {
     margin: auto;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    width: 70%;
+    width: 75%;
 }

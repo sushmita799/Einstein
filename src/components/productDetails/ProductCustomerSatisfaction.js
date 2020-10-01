@@ -5,7 +5,7 @@ const ProductCustomerSatisfaction = (props) => {
     return (
         <div className="overviewContainer">
             <div className="main" style={{ position: "relative" }}>
-                <h2>SEE CUSTOMER STORIES</h2>
+                <h2 style={{color:"#0096CE", fontFamily:"arial black" }}>SEE CUSTOMER STORIES</h2>
                 <p className="custStories">See more customer stories</p>
                 <div className="cusStory">
                     <div className="card">
