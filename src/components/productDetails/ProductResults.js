@@ -9,7 +9,14 @@ import ProductComparingSearch from "./ProductComparingSearch"
 import ProductOverview from "./ProductOverview"
 import ProductIndustrySpecific from "./ProductIndustrySpecific"
 import ProductTechnicalDetails from "./ProductTechnicalDetails"
+import Sticky from 'react-sticky-state'
 import $ from 'jquery';
+
+const scrollClass = {
+    down: 'sticky-scroll-down',
+    up: 'sticky-scroll-up'
+}
+
 
 class ProductResults extends React.Component {
     componentDidMount() {
@@ -32,7 +39,9 @@ class ProductResults extends React.Component {
             <div>
                 <section>
                     <Header />
-                    <div className="searchBar" > < SearchForm onFormSubmit={this.onFormSubmit} /></div >
+                    <Sticky scrollClass={scrollClass}>
+                    <div className="searchBar top sticky" > < SearchForm onFormSubmit={this.onFormSubmit} /></div >
+                    </Sticky>
                     <div className="productContainer">
                         <div style={{ textAlign: "right" }}><a href="#" className="addCompare">Add to Compare</a> <a href="#" className="addWorkspace">Add to Workspace</a></div>
                         <div className="productContainer-results">

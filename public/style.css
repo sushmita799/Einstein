@@ -343,7 +343,7 @@ a.active {
 
 .addCompare {
     padding: 10px;
-    border: 1px solid #631B55;
+    border: 1px solid #0096CE;
     color: #000;
     border-radius: 3px;
     font-size: 16px;
@@ -353,19 +353,19 @@ a.active {
 .addCompare::before {
     content: "+";
     padding-right: 10px;
-    color: #631B55;
+    color: #0096CE;
     font-size: 1.5rem;
 }
 
 .addWorkspace::before {
     content: url("img/bookmark-5-16.png");
     padding-right: 10px;
-    color: #631B55;
+    color: #0096CE;
 }
 
 .addWorkspace {
     padding: 10px;
-    border: 1px solid #631B55;
+    border: 1px solid #0096CE;
     color: #000;
     font-size: 16px;
 }
