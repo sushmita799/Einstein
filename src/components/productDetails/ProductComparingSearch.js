@@ -5,7 +5,7 @@ const ProductComparingSearch = (props) => {
     return (
         <div className="overviewContainer">
             <div className="main" style={{ overflow: "hidden" }} >
-                <h2 style={{ paddingBottom: "3rem", color:"#0096CE", fontFamily:"arial black" }}> COMPARING SEARCH RESULTS</h2>
+                <h2 style={{ paddingBottom: "3rem", color:"#5E9DD5", fontFamily:"arial black" }}> Comparing Search Results</h2>
                 <div className="compare">
                     <div className="compareField">
                         <div className="soultionName" style={{ marginTop: "2.6rem" }}>Solution</div>
