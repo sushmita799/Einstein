@@ -3,7 +3,7 @@ body {
 }
 
 a {
-    color: #0096CE;
+    color: #5E9DD5;
 }
 
 section {
@@ -65,7 +65,7 @@ nav ul li a {
 
 #right-menu ul li a {
     text-transform: uppercase;
-    color: #ffffff
+    /*color: #ffffff*/
 }
 
 #main-title {
