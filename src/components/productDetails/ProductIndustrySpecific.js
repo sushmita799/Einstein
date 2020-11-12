@@ -5,7 +5,7 @@ const ProductIndustrySpecific = (props) => {
     return (
         <div className="tabOverview">
             <div className="main">
-                <h2 style={{ paddingBottom: "3rem" }}>Consumer Goods</h2>
+                <h2 style={{ paddingBottom: "3rem", color:"#5E9DD5" }}>Consumer Goods</h2>
                 <iframe width="100%" height="500" style={{ border: "none" }} src="https://www.youtube.com/embed/mSWNvx4nYbU">
                 </iframe>
                 <p className="productDesc">
