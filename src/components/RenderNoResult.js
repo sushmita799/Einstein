@@ -5,7 +5,7 @@ import _ from "lodash";
 const RenderNoResult = (props) => {
     return (
         <div>
-<p>Looks like we don't have the exact match. 
+<p id="noResult">Looks like we don't have the exact match. 
     <br/>
 Why don't you try writing it differently? Here is what we suggest :  
 <br/>  
