@@ -6,15 +6,17 @@ class RenderResult extends React.Component {
 
     state = { search_data_results: {} };
 
-    componentDidMount() {
+    componentDidMount(props) {
+
         this.setState({ search_data_results: this.props.result })
+
     }
 
-    render() {
+    render(props) {
 
-        _.map(this.state.search_data_results, (result, key) => {
+        _.map(this.props.result, (result, key) => {
             try {
-                result.image = require(`../img/${result.solution.replace(/ /g, "_").toLowerCase()}.png`)
+                result.image = require(`../img/${result.solution.replace(/ /g, "_").toLowerCase()}.jpg`)
             } catch (err) {
                 result.image = require('../img/a1.png');  //set default image path
             }
@@ -22,7 +24,7 @@ class RenderResult extends React.Component {
         });
         return (
             <div>{
-                _.map(this.state.search_data_results, (result, key) => (
+                _.map(this.props.result, (result, key) => (
 
 
                     <div className="search-result-container">
