@@ -5,7 +5,7 @@ const ProductOverview = (props) => {
     return (
         <div className="tabOverview">
             <div className="main">
-                <h2 style={{ paddingBottom: "3rem", color:"#0096CE", fontFamily:"arial black" }}>KEY FEATURES</h2>
+                <h2 style={{ paddingBottom: "3rem", color:"#5E9DD5", fontFamily:"arial black" }}>Key Features</h2>
                 <iframe width="100%" height="500" style={{ border: "none" }} src="https://www.youtube.com/embed/kfOwPCBsOl4">
                 </iframe>
                 <p className="productDesc">
