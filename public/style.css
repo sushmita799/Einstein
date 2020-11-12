@@ -73,13 +73,13 @@ nav ul li a {
     width: 50%;
     font-size: 6.5em;
     line-height: 1.25;
-    color: #FFF;
+    color:#5E9DD5;
     font-weight: 800;
     padding-top: 3rem;
     font-family: arial black;
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 27%;
     text-align: left;
 }
 
@@ -131,7 +131,7 @@ a.active {
     margin: 0;
     position: absolute;
     bottom: 20%;
-    left: 25%;
+    left: 27%;
 }
 
 .rotate {
